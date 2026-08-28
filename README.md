@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">💰 Mi Balance App</h1>
+<h3 align="center">Controlá tus ingresos y gastos mensuales</h3>
 
-## Getting Started
+---
 
-First, run the development server:
+Dashboard personal de finanzas para llevar el control de ingresos, gastos y balance mes a mes, con gráficos y resumen por categoría.
+
+---
+
+### ✨ Funcionalidades
+
+- 📊 Resumen mensual de ingresos, gastos y balance
+- ➕ Registro rápido de ingresos y gastos
+- 🐷 Plan de ahorro
+- 📁 Exportación de datos
+- 🗂️ Gastos agrupados por categoría
+- 📄 Historial de transacciones recientes
+
+---
+
+### 🚀 Stack
+
+![Next.js](https://img.shields.io/badge/next.js-%23000000.svg?&style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?&style=flat-square&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?&style=flat-square&logo=tailwind-css&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chart.js&logoColor=white)
+
+- **Next.js 15** (App Router)
+- **React 19**
+- **Tailwind CSS 4**
+- **Chart.js 4** — visualización de datos
+- **ESLint** — linting
+
+---
+
+### 🛠️ Cómo correrlo localmente
 
 ```bash
+# Clonar el repo
+git clone https://github.com/tu-usuario/mibalanceapp.git
+cd mibalanceapp
+
+# Instalar dependencias
+npm install
+
+# Levantar en modo desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrí [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📦 Scripts disponibles
 
-## Learn More
+| Comando | Descripción |
+|---|---|
+| `npm run dev` | Levanta el servidor de desarrollo |
+| `npm run build` | Genera el build de producción |
+| `npm run start` | Corre el build de producción |
+| `npm run lint` | Corre ESLint |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📌 Estado
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Proyecto personal en desarrollo activo.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  Hecho por <a href="https://github.com/tu-usuario">Leandro Magallanes</a>
+</p>
